@@ -26,5 +26,4 @@ is how you 'respond' to the client.
 9.  Use lesson plans from this week, as a guide, only if you are completely lost, but make sure you are giving it 
 a true effort and not taking the easy way out.  No Pain No Gain!
 
-### submission
 
