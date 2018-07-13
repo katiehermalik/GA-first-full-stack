@@ -8,8 +8,8 @@
 2.  It should have all the crud functionality, (update, delete, get, create)
 3.  Should contain All the same RESTFUL routes we have in our fruits app
 4.  This App should look very similiar to the fruits app, but its not FRUITS
-5.  DO NOT COPY AND PASTE ANY CODE FROM YOUR FRUITS APP, its okay to use it as a reference, but type it out, 
-do not COPY AND PASTE it. 
+5.  <b>DO NOT COPY AND PASTE ANY CODE FROM YOUR FRUITS APP</b>, its okay to use it as a reference, but type it out, 
+<b>DO NOT COPY AND PASTE it</b>. 
 
 ** Hints **
 1.  Don't forget to ```npm init``` in order to start your node project
