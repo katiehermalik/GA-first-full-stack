@@ -1,6 +1,8 @@
 # first-full-stack-homework
 
-** This weekend you are going to create an express app from scratch it doens't matter what it is ** 
+** This weekend you are going to create an express app from scratch it doesn't matter what it is ** 
+
+** Read this *entire* page before you start **
 
 1.  The app should have one model with at least two properties
 2.  It should have all the crud functionality, (update, delete, get, create)
@@ -23,4 +25,6 @@ has to respond to that request.
 is how you 'respond' to the client. 
 9.  Use lesson plans from this week, as a guide, only if you are completely lost, but make sure you are giving it 
 a true effort and not taking the easy way out.  No Pain No Gain!
+
+### submission
 
