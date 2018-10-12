@@ -2,9 +2,9 @@
 
 # MEN Stack Homework
 
-** This weekend you are going to create an express app from scratch it doesn't matter what it is ** 
+**This weekend you are going to create an express app from scratch it doesn't matter what it is** 
 
-** Read this *entire* page before you start **
+**Read this *entire* page before you start**
 
 ## <font color="red">There should be at least 15-20 commits.</font>
 
