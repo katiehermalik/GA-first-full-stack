@@ -2,7 +2,7 @@
 
 # MEN Stack Homework
 
-**This weekend you are going to create an express app from scratch it doesn't matter what it is** 
+This weekend you are going to create an express app from scratch, whatever miodel you want.
 
 **Read this *entire* page before you start**
 
@@ -15,7 +15,7 @@
 5. **DO NOT COPY AND PASTE ANY CODE FROM YOUR FRUITS APP OR ANYWHERE ELSE**. It's okay to use it as a reference, but type it out.  **DO NOT COPY AND PASTE**. 
 6. Do one small step at a time, and then make sure that one step works, and commit before moving on.
 
-### Remember: use this as your guide for HTTP methods, CRUD functionalities, and URL formatting:
+### Remember: Use this list of **RESTful routes** as your guide for HTTP methods, CRUD functionalities, and URL formatting:
 
 ![RESTful routes](https://i.imgur.com/ReOfT0u.png)
 
