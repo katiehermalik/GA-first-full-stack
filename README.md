@@ -2,7 +2,7 @@
 
 # MEN Stack Homework
 
-This weekend you are going to create an express app from scratch, whatever miodel you want.
+This weekend you are going to create an express app from scratch, whatever model you want.
 
 **Read this *entire* page before you start**
 
