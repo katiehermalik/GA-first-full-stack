@@ -6,7 +6,7 @@ This weekend you are going to create an express app from scratch, whatever model
 
 **Read this *entire* page before you start**
 
-## <font color="red">There should be at least 15-20 commits.</font>
+## <font color="red">There should be at least 15 commits.</font>
 
 1. The app should have one model with at least two properties.
 2. It should have all the CRUD functionality.
