@@ -54,7 +54,7 @@ Here's some relevant pieces the EJS ["documentation" (look at the "Includes" sec
 
 ![includes-1](https://i.imgur.com/BqRTqtD.png)
 
-![includes-2](https://i.imgur.com/C40Py9D.png)
+&nbsp;&nbsp;![includes-2](https://i.imgur.com/C40Py9D.png)
 
 
 Or here's [a blog post about it](https://medium.com/@henslejoseph/ejs-partials-f6f102cb7433) and [another blog post about it](https://scotch.io/tutorials/use-ejs-to-template-your-node-application), and there are dozens more.
