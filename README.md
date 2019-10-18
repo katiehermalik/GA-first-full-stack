@@ -10,30 +10,51 @@ This weekend you are going to create an express app from scratch, whatever model
 
 1. The app should have one model with at least two properties.
 2. It should have all the CRUD functionality.
-3. It should contain all the same RESTful routes we have in our fruits app.
+3. It should contain all seven RESTful routes.
 4. This app will be very similiar to the fruits app, but the model must be different.
 5. **DO NOT COPY AND PASTE ANY CODE FROM YOUR FRUITS APP OR ANYWHERE ELSE**. It's okay to use it as a reference, but type it out.  **DO NOT COPY AND PASTE**. 
-6. Do one small step at a time, and then make sure that one step works, and commit before moving on.
+6. Do one small step at a time, and then make sure that one step works, and commit before moving on. **You are required to have at least 12 commits**.
 
 ### Remember: Use this list of **RESTful routes** as your guide for HTTP methods, CRUD functionalities, and URL formatting:
 
 ![RESTful routes](https://i.imgur.com/ReOfT0u.png)
 
-#### Hints
+#### Hints and tips.
 
-1. Don't forget to `npm init` in order to start your node project.
-2. If you get an error message that says module not found—did you install the module?
-3. **READ YOUR ERROR MESSAGES**, first try to solve them by going throught the error message, 
-then look it up, then compare to code that you know works, like the fruits github repo, then ask a friend.
-4. Set up your db first and make sure it's connected.
-5. Do one route at a time, maybe start with your index route, then move onto creating a route
-6. `console.log()` everything you can think of.
-7. Remember when you are submitting a form, you are making a request from the client, and your server
+* Don't forget to `npm init` in order to start your node project.
+
+* If you get an error message that says module not found—did you install the module?
+
+* **READ YOUR ERROR MESSAGES**, first try to solve them by going through the error message. 
+Then look it up (try googling the error message and including "express" and/or "mongoose"). Then compare to code that you know works, like the fruits app from class repo. Then slack an instructor.
+
+* Set up your db first and make sure it's connected.
+
+* Do one functionality at a time, and do each piece of that functionality one step a time.  For example, maybe start with a user story like: _"User should be able to add an item"_.  Think: In terms of REST, that means you need "create" and "new." Don't do anything else until the user can add an item.  Perhaps you'd follow steps like this:
+    * First make a "new" route that works at all and `res.send()`s some text back. **Test it**.
+    * Then, make it render a template with a form. **Test it**.
+    * Then, make a "create" route for the form to `POST` to, and make sure submitting the form successfully hits the create route. Don't worry about the data or the database, just `res.send()` some text back "hitting create route".  **Test it.**
+    * Then see if you can `console.log()` the submitted data ("`req.body`"). **And Test It**.
+    * Then see if you can get the post route to actually add the submitted data to the DB. **Test it using the `mongo` CLI and by logging the `createdItem` in your callback** 
+    * _Then_ worry about what should happen after the data is added.  Maybe you should have an index page where the user can see the items?
+
+* Ok. so then you're gonna need to build an index route... and just focus on that until its done.  And work in small steps... so maybe:
+    * First make a route that works at all and `res.send()`s some text back. **Test it**.
+    * Then make a template that will be the index page.  Just get the template rendering.  **Test it.**
+    * Then make the index route actually get data from the db successfully, and **test it** with console.log().
+    * Then render the data into the template... etc..
+   
+* ....And so forth. Make sure you're building your apps in this way.  Take careful small well-reasoned steps, and do what you can to stay clear on what the goal of each step is.  **It is critical that you build these apps one step at a time, thinking about what functionality you need to add, and adding it one step at a time, thinking about what you're doing at each step and why. Do not just write out all your routes and try to fill them in without testing them.**
+
+* `console.log()` everything you can think of.
+
+* Remember when you are submitting a form, you are making a request from the client, and your server
 has to respond to that request. 
-8. `res.render` is for rendering templates (ejs), `res.send` is for sending text.  Remember, the `res` object
-is how you 'respond' to the client. 
-9. Use lesson notes and labs from this week as a guide only if you are completely lost.  But make sure you are giving it 
-a true effort and not taking the easy way out.  _No Pain No Gain!_
+
+* `res.render()` is for rendering templates (ejs), `res.send()` is for sending text, `res.redirect()` is for sending a message to the browser that it should redirect to a new location.  Remember, the `res` object is how you _'respond'_ to the client. 
+
+* Use lesson notes and labs from this week as a guide only if you are completely lost.  But make sure you are giving it 
+a true effort and not taking the easy way out.  _No Pain, No Gain!_
 
 
 ## Hungry for More
@@ -42,9 +63,9 @@ a true effort and not taking the easy way out.  _No Pain No Gain!_
 
 Add bootstrap to your project and use some of the basic styling for layout.  
 
-At a basic level, most layout challenges can be solved with [the info this page](https://getbootstrap.com/docs/4.2/layout/overview/) and [this page](https://getbootstrap.com/docs/4.2/layout/grid/).
+At a basic level, most layout challenges can be solved with [the info on this page](https://getbootstrap.com/docs/4.3/layout/overview/) and [this page](https://getbootstrap.com/docs/4.3/layout/grid/).
 
-Also in the docs, check out the Components section and some of the subsection.  There's a nice collection of other styles you can use to easily get great professional default styling for things like [forms](https://getbootstrap.com/docs/4.2/components/forms/) or [buttons](https://getbootstrap.com/docs/4.2/components/buttons/)
+Also in the docs, check out the Components section and some of the subsection.  There's a nice collection of other styles you can use to easily get great professional default styling for things like [forms](https://getbootstrap.com/docs/4.3/components/forms/) or [buttons](https://getbootstrap.com/docs/4.3/components/buttons/)
 
 ### EJS Partials/Includes
 
