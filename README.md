@@ -13,7 +13,7 @@ This weekend you are going to create an express app from scratch, whatever model
 4. It should contain all seven RESTful routes.
 5. This app will be very similiar to the fruits app, but the model must be different.
 6. **DO NOT COPY AND PASTE ANY CODE FROM YOUR FRUITS APP OR ANYWHERE ELSE**. It's okay to use it as a reference, but type it out.  **DO NOT COPY AND PASTE**. 
-7. Do one small step at a time, and then make sure that one step works, and commit before moving on. **You are required to have at least 12 commits**.
+7. Do one small step at a time, and then make sure that one step works, and commit before moving on. **You are required to have at least 15 commits**.
 
 ### Remember: Use this list of **RESTful routes** as your guide for HTTP methods, CRUD functionalities, and URL formatting:
 
