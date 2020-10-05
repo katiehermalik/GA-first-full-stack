@@ -2,7 +2,7 @@
 
 # MEN Stack Homework
 
-This weekend you are going to create an express app from scratch, whatever model you want.
+For this assignment you are going to create an express app from scratch, using whatever model you want.
 
 **Read this *entire* page before you start**
 
@@ -18,6 +18,7 @@ This weekend you are going to create an express app from scratch, whatever model
 ### Remember: Use this list of **RESTful routes** as your guide for HTTP methods, CRUD functionalities, and URL formatting:
 
 ![RESTful routes](https://i.imgur.com/ReOfT0u.png)
+Refer to the lesson on [Intro to Rest](https://git.generalassemb.ly/la-seir-9-8/intro_to_Rest) to get a full explaination for each route.
 
 #### Hints and tips.
 
