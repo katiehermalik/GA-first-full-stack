@@ -8,6 +8,9 @@ const PORT = 4000;
 //Set View Engine
 app.set('view engine', 'ejs');
 
+// Dogs Controller
+const dogsCtrl = require('./controllers/dogsController');
+
 // Middleware
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(methodOverride('_method'));
@@ -16,6 +19,9 @@ app.use(methodOverride('_method'));
 app.get('/', (req, res) => {
   res.render('index');
 });
+
+// Dogs Route
+app.use('/dogs', dogsCtrl);
 
 // Listener
 app.listen(PORT, () => console.log(`Server started successfully on port ${PORT}`));
