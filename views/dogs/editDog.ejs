@@ -7,6 +7,19 @@
 </head>
 <body>
   <%- include( '../partials/navbar' ) %>
-  
+  <form action="/dogs/<%=dog._id%>?_method=PUT" method="POST">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" value="<%= dog.name %>" />
+    </div>
+    <div>
+      <label for="breed">Breed</label>
+      <input type="text" id="breed" name="breed" value="<%= dog.breed %>" />
+    </div>
+    <div>
+      <label for="age">Age</label>
+      <input type="text" id="age" name="age" value="<%= dog.age %>" />
+    </div>
+    <input type="submit" value="Edit Dog" />
 </body>
 </html>

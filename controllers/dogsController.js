@@ -48,5 +48,15 @@ router.delete('/:dogId', (req, res) => {
   });
 });
 
+// GET edit
+router.get('/:dogId/edit', (req, res) => {
+  db.Dog.findById(req.params.dogId, (err, foundDog) => {
+    if (err) return console.log(err);
+    res.render('dogs/editDog', {
+      dog: foundDog,
+    });
+  });
+});
+
 
 module.exports = router;
