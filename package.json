@@ -1,0 +1,22 @@
+{
+  "name": "first-full-stack-homework",
+  "version": "1.0.0",
+  "description": "first full stack app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/khermalik/first-full-stack-homework.git"
+  },
+  "author": "Katie Hermalik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.8"
+  }
+}
