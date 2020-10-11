@@ -40,4 +40,13 @@ router.get('/:dogId', (req, res) => {
   });
 });
 
+// DELETE 
+router.delete('/:dogId', (req, res) => {
+  db.Dog.findByIdAndDelete(req.params.dogId, (err, deletedDog) => {
+    if (err) return console.log(err);
+    res.redirect('/dogs');
+  });
+});
+
+
 module.exports = router;
