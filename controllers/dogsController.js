@@ -18,5 +18,14 @@ router.post('/', (req, res) => {
   });
 });
 
+// GET index
+router.get('/', (req, res) => { // route handler (express)
+  db.Dog.find({}, (err, allDogs) => {
+    if (err) console.log(err);
+    res.render('dogs/indexDog', { // Response (express)
+      dogs: allDogs,
+    });
+  });
+});
 
 module.exports = router;
