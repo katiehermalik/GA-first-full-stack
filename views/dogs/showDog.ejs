@@ -8,5 +8,17 @@
 <body>
   <%- include( '../partials/navbar' ) %>
   
+  <p>Name: <%= dog.name %></p>
+
+  <p>Breed: <%= dog.breed %></p>
+  
+  <p>Age: <%= dog.age %></p>
+
+  <form action="/dogs/<%= dog._id %>?_method=DELETE" method="POST">
+    <input type="submit" value="Delete Dog" />
+  </form>
+  <form action="/dogs/<%= dog._id %>/edit" method="GET">
+    <input type="submit" value="Edit Dog" />
+  </form>
 </body>
 </html>

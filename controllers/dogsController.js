@@ -22,9 +22,21 @@ router.post('/', (req, res) => {
 router.get('/', (req, res) => { // route handler (express)
   db.Dog.find({}, (err, allDogs) => {
     if (err) console.log(err);
-    res.render('dogs/indexDog', { // Response (express)
+    const context = {
       dogs: allDogs,
-    });
+    };
+    res.render('dogs/indexDog', context);
+  });
+});
+
+// GET show
+router.get('/:dogId', (req, res) => {
+  db.Dog.findById(req.params.dogId, (err, foundDog) => {
+    if (err) return console.log(err);
+    const context = {
+      dog: foundDog,
+    };
+    res.render('dogs/showDog', context);
   });
 });
 
