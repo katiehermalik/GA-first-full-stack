@@ -10,7 +10,7 @@ const dogSchema = new Schema({
     type: String,
     required: true,
   },
-  age: Number,
+  age: String,
 }, {timestamps: true});
 
 
