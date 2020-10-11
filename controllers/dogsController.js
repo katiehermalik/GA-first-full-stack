@@ -58,5 +58,16 @@ router.get('/:dogId/edit', (req, res) => {
   });
 });
 
+// PUT update
+router.put('/:dogId', (req, res) => {
+  db.Dog.findByIdAndUpdate(
+    req.params.dogId, 
+    req.body, 
+    (err, updatedDog) => { 
+      if (err) return console.log(err);
+      res.redirect(`/dogs/${updatedDog._id}`);
+    }
+  );
+});
 
 module.exports = router;
