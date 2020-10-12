@@ -2,3 +2,11 @@
   font-size: 36px;
   font-family: 'Indie Flower', cursive;
 }
+
+body {
+  background: cornflowerblue;
+}
+
+a {
+  text-decoration: none;
+}
