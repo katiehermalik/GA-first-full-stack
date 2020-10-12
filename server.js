@@ -14,6 +14,7 @@ const dogsCtrl = require('./controllers/dogsController');
 // Middleware
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(methodOverride('_method'));
+app.use('/public', express.static('public'));
 
 // Root Route
 app.get('/', (req, res) => {
